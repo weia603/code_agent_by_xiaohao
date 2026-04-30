@@ -91,25 +91,23 @@
 - `htmlrev`: 仓库目录（`htmlrev_repo`）
 - `tympanus`: `tympanus.json` + `tympanus.zip`，当前按 json 记录跑（`tympanus_json`）
 
-## 6. 运行状态快照（写本文件时）
+## 6. 运行状态快照（最终总数）
 
-### 已完成
+### V0 多源最终结果总数
 - v0: `1073`
 - templatemo: `626`
+- framer: `6614`
 - killerportfolio: `183`
 - commercecream: `107`
+- siteinspire: `6796`
+- designrush: `2391`
+- nicepage: `21009`
+- landingfolio: `635`
+- freehtml5: `120`
+- htmlrev: `88`
+- tympanus: `220`
 
-### 运行中（行数为当时快照）
-- framer: `1359`
-- siteinspire: `395`
-- designrush: `45`
-- nicepage: `19`
-- landingfolio: `50`
-- freehtml5: `57`
-- htmlrev: `66`
-- tympanus: `62`
-
-> 进度以对应 `jsonl` 行数与日志 `done=x/y` 为准。
+> 以上以各数据源最终 `.json` 主结果文件中的记录总数为准，而不是中途 checkpoint 或当时的 jsonl 行数快照。
 
 ## 7. 关键运行命令模式
 统一后台启动（稳定）：`setsid + nohup + </dev/null`
